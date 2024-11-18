@@ -3,7 +3,7 @@ API_KEY = '1efae8c05a77a3bafc8754fbd12e43f2'
 
 url = BASE_PATH + API_KEY
 
-EMAIL_RECEIVER = "hosein@inprobes.com"
+EMAIL_RECEIVER = "rajabpour4097@gmail.com"
 
 # rules = {
 #     'archive': True,
@@ -17,13 +17,13 @@ EMAIL_RECEIVER = "hosein@inprobes.com"
 rules = {
     'archive': True,
     'email': {
-        'receiver': 'hosein@inprobes.com',
+        'receiver': 'rajabpour4097@gmail.com',
         'enable': False,
         'preferred': ['BTC', 'IRR', "IQD", "USD", "CAD", "AED"],
     },
     'notification': {
         'enable': True,
-        'receiver': '',
+        'receiver': '0900011111',
         'preferred': {
             'BTC': {'min': 0.000101, 'max': 0.000110},
             'IRR': {'min': 45000, 'max': 50000},

@@ -12,8 +12,8 @@ def send_api_email(subject, body):
         "https://api.mailgun.net/v3/inprobes/messages",
         auth=("api", MAILGUN_APIKEY),
         data={
-            "from": "Hosein finance@inprobes.com",
-            "to": ["hs.ramezanpoor@gmail.com", "hosein@inprobes.com"],
+            "from": "rajabpour4097@inprobes.com",
+            "to": ["rajabpour4097@gmail.com"],
             "subject": subject,
             "text": body
         }
